@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Internallink smoother",
+  "version": "1.0.2",
+  "content_scripts": [
+    {
+      "run_at": "document_end",
+      "matches": [
+        "https://cloud.google.com/*",
+        "https://kubernetes.io/*"
+      ],
+      "css": ["./css/content.css"]
+    }
+  ]
+}

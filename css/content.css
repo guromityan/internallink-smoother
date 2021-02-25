@@ -1,0 +1,8 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a[href^="#"] {
+  color: #E81A73
+}
+
